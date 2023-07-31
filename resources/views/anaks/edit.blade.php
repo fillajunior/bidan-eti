@@ -1,4 +1,4 @@
-@extends('Layouts/Main')
+@extends('layouts.main')
 
 @section('container')
 <div class="col-lg-8">
@@ -62,7 +62,7 @@
         </form>
     </div>
 </div>
-{{--onclick="updateUser({{ $pasien->id }})"  
+{{--onclick="updateUser({{ $pasien->id }})"
     <script>
     function updateUser(pasienId) {
         var name = document.querySelector('input[name="name"]').value;

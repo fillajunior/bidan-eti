@@ -1,4 +1,4 @@
-@extends('Layouts/Main')
+@extends('layouts.main')
 
 @section('container')
 <div class="col-lg-8">
